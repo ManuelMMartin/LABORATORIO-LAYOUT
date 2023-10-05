@@ -1,0 +1,34 @@
+$base: blue;
+$important: darkblue;
+$warning: lightblue;
+$principal-font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+$secondary-font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+.ejercicio-2 {
+  flex-direction: column;
+}
+
+.principal-font {
+  font-family: $principal-font;
+}
+
+.secondary-font {
+  font-family: $secondary-font;
+}
+
+.base {
+  background-color: $base;
+}
+
+.important {
+  background-color: $important;
+}
+
+.warning {
+  background-color: $warning;
+}
+
+.shadow {
+  border: 1px solid black;
+  box-shadow: 10px 14px 5px 0px rgba(0, 0, 0, 0.65);
+}

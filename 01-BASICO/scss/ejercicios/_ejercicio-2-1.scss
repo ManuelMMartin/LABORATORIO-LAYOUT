@@ -1,0 +1,33 @@
+$base: red;
+$important: darkred;
+$warning: pink;
+$principal-font: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+$secondary-font: 'Times New Roman', Times, serif;
+
+.ejercicio-2 {
+  flex-direction: column;
+}
+.principal-font {
+  font-family: $principal-font;
+}
+
+.secondary-font {
+  font-family: $secondary-font;
+}
+
+.base {
+  background-color: $base;
+}
+
+.important {
+  background-color: $important;
+}
+
+.warning {
+  background-color: $warning;
+}
+
+.shadow {
+  border: 1px solid black;
+  box-shadow: -10px 14px 5px 0px rgba(0,0,0,0.65);
+}

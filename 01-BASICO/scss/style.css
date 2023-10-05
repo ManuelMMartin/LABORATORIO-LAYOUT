@@ -1,0 +1,214 @@
+@media (max-width: 775px) {
+  .ejercicio-1 {
+    flex-direction: column;
+  }
+}
+
+.box {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.base-color {
+  background-color: rgb(44, 200, 44);
+  width: 150px;
+  color: white;
+}
+
+.darken-1 {
+  background-color: #239e23;
+}
+.darken-1 .color-box-text {
+  color: white;
+}
+
+.lighten-1 {
+  background-color: #4fd84f;
+}
+.lighten-1 .color-box-text {
+  color: #e6e6e6;
+}
+
+.darken-2 {
+  background-color: #1a741a;
+}
+.darken-2 .color-box-text {
+  color: white;
+}
+
+.lighten-2 {
+  background-color: #79e179;
+}
+.lighten-2 .color-box-text {
+  color: #cccccc;
+}
+
+.darken-3 {
+  background-color: #104b10;
+}
+.darken-3 .color-box-text {
+  color: white;
+}
+
+.lighten-3 {
+  background-color: #a2eba2;
+}
+.lighten-3 .color-box-text {
+  color: #b3b3b3;
+}
+
+.darken-4 {
+  background-color: #072107;
+}
+.darken-4 .color-box-text {
+  color: white;
+}
+
+.lighten-4 {
+  background-color: #ccf4cc;
+}
+.lighten-4 .color-box-text {
+  color: #999999;
+}
+
+.ejercicio-2 {
+  flex-direction: column;
+}
+
+.principal-font {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.secondary-font {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.base {
+  background-color: red;
+}
+
+.important {
+  background-color: darkred;
+}
+
+.warning {
+  background-color: pink;
+}
+
+.shadow {
+  border: 1px solid black;
+  box-shadow: -10px 14px 5px 0px rgba(0, 0, 0, 0.65);
+}
+
+/* segundo tema cargar "./ejercicios/ejercicio-2-2" */
+.ejercicio-3 {
+  flex-direction: column;
+}
+
+header {
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 25px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(20, 94, 104);
+}
+@media (max-width: 600px) {
+  .list {
+    flex-direction: column;
+  }
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  flex: 1;
+  color: white;
+  padding: 10px;
+}
+.item:hover {
+  background-color: rgb(20, 76, 104);
+  cursor: pointer;
+}
+
+.ejercicio-4 {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  border: 1px solid gray;
+  max-width: 300px;
+  margin: 30px;
+  box-shadow: 10px 14px 5px 0px rgba(0, 0, 0, 0.65);
+}
+
+img {
+  width: 100%;
+  filter: sepia(50%);
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px;
+}
+
+.card-title {
+  font-size: xx-large;
+}
+
+.card-subtext {
+  margin-top: 15px;
+  align-self: flex-end;
+  font-size: small;
+  font-weight: bold;
+}
+.card-subtext span {
+  color: limegreen;
+  font-weight: 200;
+}
+
+.btn {
+  background-color: limegreen;
+  margin: 10px;
+  padding: 15px;
+  border: none;
+  color: white;
+  font-size: medium;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(48, 194, 48);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.ejercicio {
+  display: flex;
+  margin: 20px;
+}
+
+.titulo {
+  border: 2px solid grey;
+  background-color: rgba(128, 128, 128, 0.804);
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

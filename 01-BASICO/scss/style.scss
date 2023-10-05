@@ -1,0 +1,22 @@
+@use "./ejercicios/ejercicio-1";
+@use "./ejercicios/ejercicio-2-1";
+/* segundo tema cargar "./ejercicios/ejercicio-2-2" */
+@use "./ejercicios/ejercicio-3";
+@use "./ejercicios/ejercicio-4";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.ejercicio {
+  display: flex;
+  margin: 20px;
+}
+
+.titulo {
+  border: 2px solid grey;
+  background-color: rgba(128, 128, 128, 0.804);
+  text-align: center;
+}
