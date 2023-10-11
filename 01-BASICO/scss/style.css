@@ -15,62 +15,62 @@
 }
 
 .base-color {
-  background-color: rgb(44, 200, 44);
+  background-color: rgb(44, 44, 230);
   width: 150px;
   color: white;
 }
 
 .darken-1 {
-  background-color: #239e23;
+  background-color: #1818c7;
 }
 .darken-1 .color-box-text {
   color: white;
 }
 
 .lighten-1 {
-  background-color: #4fd84f;
+  background-color: #5a5aeb;
 }
 .lighten-1 .color-box-text {
   color: #e6e6e6;
 }
 
 .darken-2 {
-  background-color: #1a741a;
+  background-color: #12129a;
 }
 .darken-2 .color-box-text {
   color: white;
 }
 
 .lighten-2 {
-  background-color: #79e179;
+  background-color: #8787f1;
 }
 .lighten-2 .color-box-text {
   color: #cccccc;
 }
 
 .darken-3 {
-  background-color: #104b10;
+  background-color: #0d0d6c;
 }
 .darken-3 .color-box-text {
   color: white;
 }
 
 .lighten-3 {
-  background-color: #a2eba2;
+  background-color: #b5b5f6;
 }
 .lighten-3 .color-box-text {
   color: #b3b3b3;
 }
 
 .darken-4 {
-  background-color: #072107;
+  background-color: #07073f;
 }
 .darken-4 .color-box-text {
   color: white;
 }
 
 .lighten-4 {
-  background-color: #ccf4cc;
+  background-color: #e2e2fc;
 }
 .lighten-4 .color-box-text {
   color: #999999;

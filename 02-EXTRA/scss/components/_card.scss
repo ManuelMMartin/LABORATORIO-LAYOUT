@@ -1,0 +1,39 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 3%;
+  height: auto;
+  width: calc((100% - (52px * (4 - 1))) / 4);
+  padding: 25px;
+  gap: 10px;
+
+  @media (max-width: $screen-md) {
+    width: calc((100% - (52px)) / 2);
+  }
+
+  @media (max-width: $screen-xs) {
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    border: none;
+    border-radius: 0;
+  }
+}
+
+.card img {
+  object-fit: contain;
+  border-radius: 50%;
+  max-width: 200px;
+  width: 100%;
+  aspect-ratio: 1;
+}
+
+.member-name {
+  text-align: center;
+}

@@ -1,0 +1,9 @@
+.page-container {
+  display: flex;
+  grid-area: page-container;
+  background-color: $background-color;
+
+  @media (max-width: $screen-xs) {
+    flex-direction: column;
+  }
+}

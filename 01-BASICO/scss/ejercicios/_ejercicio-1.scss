@@ -1,7 +1,7 @@
 $color-base1: rgb(230, 44, 44);
 $color-base2: rgb(44, 44, 230);
 $color-base3: rgb(44, 200, 44);
-$selected-color: $color-base3;
+$selected-color: $color-base2;
 
 .ejercicio-1 {
   @media (max-width: 775px) {
@@ -27,18 +27,18 @@ $selected-color: $color-base3;
 
 @for $i from 1 through 4 {
   .darken-#{$i} {
-    background-color: darken($selected-color, percentage(calc($i / 10)));
+    background-color: darken($selected-color, $i * 10);
 
     .color-box-text {
-      color: lighten(white, percentage(calc($i / 10)));
+      color: lighten(white, $i * 10);
     }
   }
 
   .lighten-#{$i} {
-    background-color: lighten($selected-color, percentage(calc($i / 10)));
+    background-color: lighten($selected-color, $i * 10);
 
     .color-box-text {
-      color: darken(white, percentage(calc($i / 10)));
+      color: darken(white, $i * 10);
     }
   }
 }

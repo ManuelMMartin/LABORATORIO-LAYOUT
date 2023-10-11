@@ -1,0 +1,11 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 30px;
+  gap: 30px 52px;
+
+  @media (max-width: $screen-xs) {
+    gap: 1px;
+  }
+}
